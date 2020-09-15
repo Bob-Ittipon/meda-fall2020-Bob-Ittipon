@@ -1,0 +1,32 @@
+
+/* Color
+Font Size
+Font Family
+Padding
+Margin */
+
+#myfirstsession{
+    color: khaki;
+    font-size: 24px;
+    font-family: Verdana;
+    padding: 5px;
+    margin: 20px;
+    background-color: lightblue;
+}
+
+#mysecondsession{
+    color: mediumblue;
+    font-size: 24px;
+    font-family: sans-serif;
+    padding: 5px;
+    margin: 20px;
+    background-color: lightblue;
+}
+#mythirdsession{
+    color: maroon;
+    font-size: 24px;
+    font-family: Geneva;
+    padding: 5px;
+    margin: 20px;
+    background-color: lightblue;
+}

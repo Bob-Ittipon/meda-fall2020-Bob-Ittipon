@@ -1,0 +1,48 @@
+/*
+CSS parts:
+Selector
+Rules: property& value
+*/
+/* body {
+    background-color: brown;
+
+}
+p{
+    color: burlywood;
+    font-size: 80px;
+} */
+
+/* #select by id */
+#firstDiv {
+ background-color: cadetblue;
+}
+#secondDiv{
+    background-color: chocolate;
+}
+
+/* . select by class */
+.classDiv{
+    background-color: chartreuse;
+    width: 300px;
+    height: 300px;
+    /* border needs 3 elements style, width, color */
+    border-style: solid;
+    border-width: 5px;
+    border-color: crimson;
+    /* margin is a space between the elements provide around the target by minimum*/
+    /* margin-left: auto; margin-right: auto; = make it center block-level elements */
+    margin: 50px;
+    /* padding is a space between content, it is own content by itself */
+    padding: 10px;
+
+}
+#special-paragraph{
+    /* font-size 12px by default */
+    font-size: 24px;
+    /* font-family: ; = font style */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   /* text align: center, right, left */
+   text-align: center;
+   /* lineheight  */
+   line-height: 42px;
+}
