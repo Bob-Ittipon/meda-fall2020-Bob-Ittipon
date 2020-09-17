@@ -1,0 +1,39 @@
+
+
+#container{
+    width: auto;
+    height: max-content;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#header{
+    width: inherit;
+    height: 200px;
+    background-color: lightsteelblue;
+}
+#main{
+    width: inherit;
+    height: 1000px;
+    background-color: lightsalmon;
+}
+#footer{
+    width: inherit;
+    height: 100px;
+    background-color: lightgray;
+}
+
+#sidebar{
+    width: 100px;
+    height: inherit;
+    background-color: lemonchiffon;
+    display: inline-block;
+    
+}
+#article{
+    width: inherit;
+    height: inherit;
+    background-color: lightseagreen;
+    display: inline-block;
+    vertical-align: top;
+}
