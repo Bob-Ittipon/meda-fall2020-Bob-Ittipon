@@ -24,16 +24,35 @@
 }
 
 #sidebar{
-    width: 100px;
+    width: 10%;
     height: inherit;
     background-color: lemonchiffon;
     display: inline-block;
     
 }
 #article{
-    width: inherit;
+    width: 90% ;
     height: inherit;
     background-color: lightseagreen;
     display: inline-block;
     vertical-align: top;
+  
+   
+}
+.gallery{
+    width: 20% ;
+    height: 10%;
+    padding: 1%;
+    margin: 1%;
+    background-color: limegreen;
+    display: inline-block;
+    vertical-align: top;
+  
+    
+}
+/* #gallery-container{
+    line-height: 10px;
+} */
+p{
+    padding: 10px;
 }

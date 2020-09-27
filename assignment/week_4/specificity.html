@@ -1,0 +1,48 @@
+<!doctype html><!--to tell the browser what version is using-->
+
+<html lang="en"><!--what language this webpage is using-->
+<head><!---->
+  <meta charset="utf-8"><!--character set used for the webpage-->
+
+  <title>Understand Specificity</title><!--Describe detail on tab text-->
+  
+
+  
+<!-- internal style sheet(only effect this html file) -->
+  <style>
+ body{
+   background-color: red;
+ }
+
+  </style>   
+ <link rel="stylesheet" href="specificity2.css"><!--to tell the HTML where the othe code is located mostly using for the css (external style sheet) (can reuse for anyother webpage) -->
+</head>
+<!--everything in the body is display in the webpage(view port)-->
+<body>
+  <header>
+    <div ></div>
+  </header>
+    <div >
+
+      <p><a href="#">bing.com</a></p>
+
+      <div >
+
+        <p>Hello</p>
+
+          <ul>
+
+            <li><a href="#">google</a></li>
+
+          </ul>
+
+          <p><a href="#">yahoo</a></p>
+
+      </div>
+    </div>
+
+  <footer style="border: dashed rosybrown 5px;">
+    <div ></div>
+  </footer>
+</body>
+</html>

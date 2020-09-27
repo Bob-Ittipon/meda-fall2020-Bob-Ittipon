@@ -1,0 +1,57 @@
+cd = change directory
+ls = list item in directory
+ls -a = list hidden folder
+cd .. = go back to a parent folder
+. = current folder itself
+cd ~ = Hold down the Alt key and type 0126 if cannot type it in == home folder
+mkdir+name = create a folder
+nano = access to txt file
+
+git init = initualize the folder(current directory) 
+git add+name = add the file you want git to track the file
+git add . = add all file inmediate level in the current folder
+git add -A = add eveything including sub folder
+git status = check status
+git commit = commit the file that add (have to add commit comment)
+git commit -m "message" = commit all file added with the massage
+git log = going back to the history
+git rm "filename" = confim delete
+
+git clone +"git url" = clone repository
+
+push an existing repository from the command line
+git remote add origin https://github.com/Bob-Ittipon/meda-fall2020-Bob-Ittipon.git
+git branch -M master
+git push -u origin master
+git pull = take and update
+Html = just for making the content (Elements) = it is a markup language
+CSS = Layout
+"CSS Target HTML"
+
+https://developer.mozilla.org/en-US/
+HTML tags
+<p></p> = paragraph tags = block level elements
+<h1></h1> = Header tags
+<br /> = breaking tags
+<!-- --> = comment tags
+<hr />= Horizontal line
+<a href=""></a> = ankle tags = in line elements example:<a href="https://www.google.com">google.com</a>
+
+<ul>unorder list, <li> listitem
+<ol></ol> = orderlist with number by default
+<dl></dl> = dictionary list
+	- <dt></dt> = dictionary term
+    - <dd></dd> = dictionary defination
+
+<img src="imagename or image path" alt="the describtion of image" title="Additional information" width="pixel" height="pixel"/> = attach image (must be the same folder with the webpage)
+<figure><figurecaption></figurecaption></figure> = figure element section for image
+
+index.html
+<!doctype html> = to tell the browser what version is using
+<head></head> =
+<div></div> =
+
+/* order specific
+1.id
+2.class
+3.element */

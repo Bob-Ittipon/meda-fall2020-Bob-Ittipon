@@ -1,0 +1,27 @@
+#first{
+    width: 100px;
+    height: 100px;
+
+}
+#second{
+    width: 200px;
+    height: 200px;
+}
+#third{
+    width: 300px;
+    height: 300px;
+}
+.green{
+    background-color: green;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: purple;
+}
+
+/* order specific
+1.id
+2.class
+3.element */

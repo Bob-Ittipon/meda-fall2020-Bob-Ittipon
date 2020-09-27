@@ -1,0 +1,18 @@
+https://www.pexels.com/
+
+git guide
+https://rogerdudler.github.io/git-guide/
+
+HTML tags guide
+https://developer.mozilla.org/en-US/
+
+HTML template
+https://www.sitepoint.com/a-basic-html5-template/
+
+cheat sheet
+https://htmlcheatsheet.com/
+
+lynda.com :CSS essential training
+
+
+https://specifishity.com/

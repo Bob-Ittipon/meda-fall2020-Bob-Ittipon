@@ -1,0 +1,51 @@
+body{
+    background-color: grey;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: red ;
+}
+/* select all div with fo */
+footer div{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+
+header div{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+p a{
+    color: pink;
+}
+
+div > div > p a{
+    color: greenyellow;
+}
+
+/* p#specialtext{
+
+}
+
+p #specialtext{
+
+}
+#specialtext{
+
+} */
+
+/* the more number of elements is the more important (the higher point will be the more specific) example !important 1, 0, 0, 0, 0is the most important */
+
+/* direct child selection div > div > p a{
+    color: greenyellow;
+} */
+
+/* p#specialtext select specify paragraph id */
+/* p #specialtext select specify an ancestor element that have match id */
+/* p , a = , multiselector */
+/* a.bold select the anchor with hte bold class */
