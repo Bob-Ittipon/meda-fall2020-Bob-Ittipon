@@ -76,7 +76,7 @@ footer p{
 }
 #article{
     width: 90% ;
-    height: 1000px;
+    height: inherit;
     background-color: lightseagreen;
     display: inline-block;
     vertical-align: top;
@@ -84,10 +84,10 @@ footer p{
    
 }
 .gallery{
-    width: 20% ;
-    height: 10%;
-    padding: 1%;
-    margin: 1%;
+    width: fit-content ;
+    height: fit-content;
+    padding: 10px;
+    margin: 10px;
     background-color: limegreen;
     display: inline-block;
     vertical-align: top;
