@@ -1,7 +1,7 @@
 
 Color&Theme
 
-  I'm going to use orange for the header and footer and black for the body blackground and peal for the content black ground as a website theme colour.
+  I'm going to use orange for the header and footer and black for the body blackground and peal(F8F5BE) for the content black ground as a website theme colour.
 
 Homepage 
 	contain my briefly expanation about my passion in software engineer career,a little bit on my background(education and working expereince), a little bit of my information(who I am),and what I wanna do by teeling my life story.

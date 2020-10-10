@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+    <style> form > input{
+        background-color: bisque;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 10px;
+        border: cornflowerblue;
+        border-style: solid;
+        border-width: 1px;
+        padding: 10px;
+    }
+    form > label {
+        color:crimson;
+        
+
+    }
+
+    body {
+        background-color: darksalmon;
+    }
+    form textarea{
+        background-color: gold;
+        border: cornflowerblue;
+        border-style: solid;
+        border-width: 2px;
+    }
+    
+    </style>
+   
+</head>
+<body>
+
+    <form >
+
+        <textarea name="textarea" id="txtArea" cols="30" rows="10"></textarea><br />
+
+        <label for = "idFirstname">First Name:</label><br />
+        <input type = "text" id = "idFirstname"/><br />
+
+        <label for = "idEmail">Email:</label><br />
+        <input type = "email" placeholder="example@example.com"  id = "idEmail"/><br />
+
+        <label for = "idPass">Password:</label><br />
+        <input type = "password" id = "idPass"/><br />
+      
+
+        <label for="veteranStatus">Yes</label>
+        <!-- radio name attribute use for grouping up the same name -->
+        <input type="radio" name = "status" id = "yes/">
+
+        <label for="veteranStatus">No</label>
+        <input type="radio" name = "status" id = "no"/>
+
+        <label for="veteranStatus">Ok</label>
+        <input type="radio" name = "status" id = "ok"/>
+
+        <label for="veteranStatus">Thank You</label>
+        <input type="radio" name = "status" id = "thank you"/><br />
+
+        <input type="checkbox"id="agreement"/> 
+        <label for="agreement">I agree</label><br />
+
+          
+        <input type="reset"/>
+        <input type="submit">
+      
+        
+    </form>
+    
+</body>
+</html>

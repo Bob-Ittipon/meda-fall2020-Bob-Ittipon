@@ -26,27 +26,3 @@ function aFunction() {
     // Do something when we call aFunction();
 }
 
-aFunction();
-
-//PARAMETERS & ARGUMENTS
-/*
-function anotherFunction(parameter1, parameter2) {
-
-}
-
-anotherFunction(argument1, argument2);
-anotherFunction(argument1a, argument2a);
-
-*/
-
-// RETURNING DATA FROM FUNCTIONS
-/*
-
-function finalFunction() {
-
-    return pieceOfData;
-}
-
-finalFunction(); when this function finishes it will be replaced by whatever pieceOfData was holding.
-
-*/

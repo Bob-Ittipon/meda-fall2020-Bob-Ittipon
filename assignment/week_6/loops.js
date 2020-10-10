@@ -1,9 +1,3 @@
-// while loop
-
-
-if (true) {
- // This will only run once if its true.
-}
 
 var counter = 0;
 
@@ -15,10 +9,6 @@ while (counter < 10) {
 }
 
 // do while loop
-
-while (false) {
-
-}
 
 do {
     // This line will ALWAYS run at least 1 time, because we execute the code first AND THEN we check the condition.
@@ -32,23 +22,15 @@ for (var i = 0; i < 10; i = i + 1) {
     console.log(i);
 }
 
-// shorthands
+
 var someNumber = 10;
 
-someNumber++; // someNumber = someNumber + 1;
+someNumber++; 
 someNumber--; // someNumber = someNumber - 1;
 someNumber += 2; // someNumber = someNumber + 2;
 someNumber -= 2; // someNumber = someNumber - 2;
 someNumber /= 3;
 someNumber *= 3;
-
-
-// function sayRunning() {
-//     console.log("Running");
-// }
-
-// sayRunning();
-
 
 // BREAK and CONTINUE;
 
