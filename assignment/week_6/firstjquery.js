@@ -1,4 +1,4 @@
 $(document).ready(function () {
 
-    $("body").css("background-color","orange")
+    $("p").css("background-color","orange")
 });
