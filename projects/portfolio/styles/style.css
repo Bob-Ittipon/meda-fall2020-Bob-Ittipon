@@ -75,7 +75,8 @@ footer p{
 }
 main{
     width: inherit;
-    height: 1000px;
+    height: max-content;
+    min-height: 1000px;
     background-color: #000000;
     background-image: url("../images/samet_nangchee.jpg");
    
@@ -104,7 +105,7 @@ main{
     height: max-content;
     padding: 10px;
     margin: 50px;
-    margin-right: auto;
+    margin-left: auto;
    display: inline-block;
    opacity: 0.5;
    font-size: 20px;
@@ -172,33 +173,29 @@ main{
 }
 
 #portImages{
-    width: max-content;
-    height: max-content;
-   
-   
+    padding: 10px;
     margin: 50px;
-    margin-right: auto;
-    position: absolute;
+   
     display: inline-block;
-    opacity: 0.8;
+    opacity: 0.5;
    
 }
 
 #portDetails{
-    width: 50% ;
-    height: max-content;
-   
+    position: absolute;
+
+  
     
+ 
+    background-color:  peachpuff ;
+    
+    border-radius: 25px;
+    width: 70%;
+    height: max-content;
     padding: 10px;
     margin: 50px;
     margin-left: auto;
-    background-color:  peachpuff ; 
-    border-radius: 25px;
-    display: inline-block;
-    position: absolute;
-   
-    right: 0;
-    left: 0;
-    opacity: 0.5;
-    font-size: 20px;
+   display: inline-block;
+   opacity: 0.5;
+   font-size: 20px;
 }
