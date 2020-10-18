@@ -178,6 +178,7 @@ main{
    
     display: inline-block;
     opacity: 0.5;
+  
    
 }
 
@@ -185,12 +186,13 @@ main{
     position: absolute;
 
   
-    
+    margin-block-end: 0;
+    margin-block-start: 0;
  
     background-color:  peachpuff ;
     
     border-radius: 25px;
-    width: 70%;
+    width: 800px;
     height: max-content;
     padding: 10px;
     margin: 50px;
